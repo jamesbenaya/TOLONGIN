@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class VariantDetails extends StatelessWidget {
+  const VariantDetails({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -195,7 +197,7 @@ class VariantDetails extends StatelessWidget {
               Positioned(
                 left: 146,
                 top: 26,
-                child: Container(
+                child: SizedBox(
                   width: 135.82,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,

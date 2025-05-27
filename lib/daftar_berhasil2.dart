@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class DaftarBerhasil extends StatelessWidget {
+  const DaftarBerhasil({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(

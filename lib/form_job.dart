@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class FormJob extends StatelessWidget {
+  const FormJob({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -145,7 +147,7 @@ class FormJob extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 17.30,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 74.67,
                   child: Stack(
@@ -184,7 +186,7 @@ class FormJob extends StatelessWidget {
                       Positioned(
                         left: 21,
                         top: 7.33,
-                        child: Container(
+                        child: SizedBox(
                           width: 54,
                           height: 21,
                           child: Stack(
@@ -218,7 +220,7 @@ class FormJob extends StatelessWidget {
               Positioned(
                 left: 150.66,
                 top: 62,
-                child: Container(
+                child: SizedBox(
                   width: 135.82,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -534,7 +536,7 @@ class FormJob extends StatelessWidget {
               Positioned(
                 left: 39,
                 top: 1196,
-                child: Container(
+                child: SizedBox(
                   width: 19,
                   height: 19,
                   child: Stack(

@@ -24,6 +24,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class EditRequest extends StatelessWidget {
+  const EditRequest({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -75,7 +77,7 @@ class EditRequest extends StatelessWidget {
               Positioned(
                 left: 6,
                 top: 423,
-                child: Container(
+                child: SizedBox(
                   width: 264,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -83,7 +85,7 @@ class EditRequest extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Container(
+                      SizedBox(
                         width: 175,
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
@@ -91,7 +93,7 @@ class EditRequest extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 10,
                           children: [
-                            Container(
+                            SizedBox(
                               width: double.infinity,
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
@@ -125,7 +127,7 @@ class EditRequest extends StatelessWidget {
               Positioned(
                 left: 6,
                 top: 486,
-                child: Container(
+                child: SizedBox(
                   width: 264,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -133,7 +135,7 @@ class EditRequest extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Container(
+                      SizedBox(
                         width: 235,
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
@@ -141,7 +143,7 @@ class EditRequest extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 10,
                           children: [
-                            Container(
+                            SizedBox(
                               width: double.infinity,
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,

@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class DetailPermintaanReggina extends StatelessWidget {
+  const DetailPermintaanReggina({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -34,7 +36,7 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 11.62,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 50.18,
                   child: Stack(
@@ -73,7 +75,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                       Positioned(
                         left: 21,
                         top: 7.33,
-                        child: Container(
+                        child: SizedBox(
                           width: 54,
                           height: 21,
                           child: Stack(
@@ -129,12 +131,12 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: 35,
                 top: 102,
-                child: Container(width: 292, height: 32),
+                child: SizedBox(width: 292, height: 32),
               ),
               Positioned(
                 left: 150.66,
                 top: 62,
-                child: Container(
+                child: SizedBox(
                   width: 135.82,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -273,7 +275,7 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: 371,
                 top: 149,
-                child: Container(width: 20, height: 20, child: Stack()),
+                child: SizedBox(width: 20, height: 20, child: Stack()),
               ),
               Positioned(
                 left: 43,
@@ -370,7 +372,7 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: 152,
                 top: 370,
-                child: Container(
+                child: SizedBox(
                   width: 127,
                   height: 28,
                   child: Stack(
@@ -557,7 +559,7 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: 48,
                 top: 930,
-                child: Container(
+                child: SizedBox(
                   width: 147,
                   height: 49,
                   child: Stack(
@@ -602,7 +604,7 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: 246,
                 top: 930,
-                child: Container(
+                child: SizedBox(
                   width: 147,
                   height: 47,
                   child: Stack(
@@ -656,7 +658,7 @@ class DetailPermintaanReggina extends StatelessWidget {
               Positioned(
                 left: -3,
                 top: 840,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 90,
                   child: Stack(
@@ -664,7 +666,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                       Positioned(
                         left: 0,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           width: 428,
                           height: 90,
                           child: Stack(
@@ -672,7 +674,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                               Positioned(
                                 left: 0,
                                 top: 1,
-                                child: Container(
+                                child: SizedBox(
                                   width: 428,
                                   height: 89,
                                   child: Stack(
@@ -726,7 +728,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                                                       CrossAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
-                                                    Container(
+                                                    SizedBox(
                                                       width: 24,
                                                       height: 24,
                                                       child: Stack(
@@ -734,7 +736,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                                                           Positioned(
                                                             left: -24.90,
                                                             top: 0,
-                                                            child: Container(
+                                                            child: SizedBox(
                                                               width: 73.80,
                                                               height: 24,
                                                               child: Column(
@@ -795,7 +797,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                                                             .center,
                                                     spacing: 7,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -830,7 +832,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                                                             .center,
                                                     spacing: 6,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -869,7 +871,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                                                             .center,
                                                     spacing: 6,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -904,7 +906,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                                                             .center,
                                                     spacing: 6,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -937,7 +939,7 @@ class DetailPermintaanReggina extends StatelessWidget {
                               Positioned(
                                 left: 101,
                                 top: 0,
-                                child: Container(
+                                child: SizedBox(
                                   width: 61.46,
                                   height: 4,
                                   child: Stack(

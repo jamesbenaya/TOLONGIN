@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class TerimaPekerjaan extends StatelessWidget {
+  const TerimaPekerjaan({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -60,7 +62,7 @@ class TerimaPekerjaan extends StatelessWidget {
               Positioned(
                 left: 6,
                 top: 423,
-                child: Container(
+                child: SizedBox(
                   width: 264,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -68,7 +70,7 @@ class TerimaPekerjaan extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Container(
+                      SizedBox(
                         width: 175,
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
@@ -76,7 +78,7 @@ class TerimaPekerjaan extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 10,
                           children: [
-                            Container(
+                            SizedBox(
                               width: double.infinity,
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
@@ -107,7 +109,7 @@ class TerimaPekerjaan extends StatelessWidget {
               Positioned(
                 left: 7,
                 top: 456,
-                child: Container(
+                child: SizedBox(
                   width: 264,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -115,7 +117,7 @@ class TerimaPekerjaan extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Container(
+                      SizedBox(
                         width: 175,
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
@@ -123,7 +125,7 @@ class TerimaPekerjaan extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 10,
                           children: [
-                            Container(
+                            SizedBox(
                               width: double.infinity,
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
@@ -247,9 +249,7 @@ class TerimaPekerjaan extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     spacing: 4,
-                    children: [
-                      Container(width: 22, height: 22, child: Stack()),
-                    ],
+                    children: [SizedBox(width: 22, height: 22, child: Stack())],
                   ),
                 ),
               ),
@@ -431,7 +431,7 @@ class TerimaPekerjaan extends StatelessWidget {
               Positioned(
                 left: 16,
                 top: 831,
-                child: Container(
+                child: SizedBox(
                   width: 376,
                   height: 58,
                   child: Stack(
@@ -439,7 +439,7 @@ class TerimaPekerjaan extends StatelessWidget {
                       Positioned(
                         left: 18,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           height: 58,
                           child: Row(
                             mainAxisSize: MainAxisSize.min,

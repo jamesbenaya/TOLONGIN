@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class FormRequest extends StatelessWidget {
+  const FormRequest({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -145,7 +147,7 @@ class FormRequest extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 17.55,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 75.75,
                   child: Stack(
@@ -184,7 +186,7 @@ class FormRequest extends StatelessWidget {
                       Positioned(
                         left: 21,
                         top: 7.33,
-                        child: Container(
+                        child: SizedBox(
                           width: 54,
                           height: 21,
                           child: Stack(
@@ -218,7 +220,7 @@ class FormRequest extends StatelessWidget {
               Positioned(
                 left: 150.66,
                 top: 62,
-                child: Container(
+                child: SizedBox(
                   width: 135.82,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -577,7 +579,7 @@ class FormRequest extends StatelessWidget {
               Positioned(
                 left: 47,
                 top: 1215,
-                child: Container(
+                child: SizedBox(
                   width: 19,
                   height: 19,
                   child: Stack(

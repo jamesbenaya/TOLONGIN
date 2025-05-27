@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class EditPopup2 extends StatelessWidget {
+  const EditPopup2({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -224,7 +226,7 @@ class EditPopup2 extends StatelessWidget {
               Positioned(
                 left: 146,
                 top: 42,
-                child: Container(
+                child: SizedBox(
                   width: 135.82,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,

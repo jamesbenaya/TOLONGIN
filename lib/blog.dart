@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class Blog extends StatelessWidget {
+  const Blog({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -268,7 +270,7 @@ class Blog extends StatelessWidget {
               Positioned(
                 left: 20,
                 top: 131,
-                child: Container(
+                child: SizedBox(
                   width: 388,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -324,7 +326,7 @@ class Blog extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: 54,
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
@@ -349,7 +351,7 @@ class Blog extends StatelessWidget {
                                 Positioned(
                                   left: 15,
                                   top: 15,
-                                  child: Container(
+                                  child: SizedBox(
                                     width: 24,
                                     height: 24,
                                     child: Stack(),
@@ -388,7 +390,7 @@ class Blog extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 155,
                           children: [
-                            Container(
+                            SizedBox(
                               width: 82,
                               height: double.infinity,
                               child: Column(
@@ -451,7 +453,7 @@ class Blog extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 388,
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
@@ -481,7 +483,7 @@ class Blog extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(
+                                      SizedBox(
                                         width: 30,
                                         height: 30,
                                         child: Stack(),
@@ -498,7 +500,7 @@ class Blog extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(
+                                      SizedBox(
                                         width: 30,
                                         height: 30,
                                         child: Stack(),
@@ -544,7 +546,7 @@ class Blog extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(
+                                      SizedBox(
                                         width: 30,
                                         height: 30,
                                         child: Stack(),
@@ -564,7 +566,7 @@ class Blog extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 836,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 90,
                   child: Stack(
@@ -572,7 +574,7 @@ class Blog extends StatelessWidget {
                       Positioned(
                         left: 0,
                         top: 1,
-                        child: Container(
+                        child: SizedBox(
                           width: 428,
                           height: 89,
                           child: Stack(
@@ -622,7 +624,7 @@ class Blog extends StatelessWidget {
                                               CrossAxisAlignment.center,
                                           spacing: 6,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: 24,
                                               height: 24,
                                               child: Stack(
@@ -630,7 +632,7 @@ class Blog extends StatelessWidget {
                                                   Positioned(
                                                     left: -24.90,
                                                     top: 0,
-                                                    child: Container(
+                                                    child: SizedBox(
                                                       width: 73.80,
                                                       height: 24,
                                                       child: Column(
@@ -684,7 +686,7 @@ class Blog extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 7,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -716,7 +718,7 @@ class Blog extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -751,7 +753,7 @@ class Blog extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -783,7 +785,7 @@ class Blog extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -815,7 +817,7 @@ class Blog extends StatelessWidget {
                       Positioned(
                         left: 264,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           width: 61.46,
                           height: 4,
                           child: Stack(

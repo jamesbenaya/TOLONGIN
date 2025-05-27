@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class JobResume extends StatelessWidget {
+  const JobResume({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -83,7 +85,7 @@ class JobResume extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 17.30,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 74.67,
                   child: Stack(
@@ -122,7 +124,7 @@ class JobResume extends StatelessWidget {
                       Positioned(
                         left: 21,
                         top: 7.33,
-                        child: Container(
+                        child: SizedBox(
                           width: 54,
                           height: 21,
                           child: Stack(
@@ -156,7 +158,7 @@ class JobResume extends StatelessWidget {
               Positioned(
                 left: 151,
                 top: 46.30,
-                child: Container(
+                child: SizedBox(
                   width: 135,
                   height: 73,
                   child: Column(

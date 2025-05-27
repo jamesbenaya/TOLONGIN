@@ -24,6 +24,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class Pesan extends StatelessWidget {
+  const Pesan({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -38,7 +40,7 @@ class Pesan extends StatelessWidget {
               Positioned(
                 left: 6,
                 top: 423,
-                child: Container(
+                child: SizedBox(
                   width: 264,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -99,7 +101,7 @@ class Pesan extends StatelessWidget {
               Positioned(
                 left: 52,
                 top: 451,
-                child: Container(width: 23, height: 23, child: Stack()),
+                child: SizedBox(width: 23, height: 23, child: Stack()),
               ),
               Positioned(
                 left: 81,
@@ -245,7 +247,7 @@ class Pesan extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     spacing: 4,
                     children: [
-                      Container(width: 22, height: 22, child: Stack()),
+                      SizedBox(width: 22, height: 22, child: Stack()),
                     ],
                   ),
                 ),
@@ -304,7 +306,7 @@ class Pesan extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 10,
                     children: [
-                      Container(width: 30, height: 30, child: Stack()),
+                      SizedBox(width: 30, height: 30, child: Stack()),
                     ],
                   ),
                 ),
@@ -340,7 +342,7 @@ class Pesan extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 6,
                           children: [
-                            Container(
+                            SizedBox(
                               width: 24,
                               height: 24,
                               child: Stack(
@@ -348,7 +350,7 @@ class Pesan extends StatelessWidget {
                                   Positioned(
                                     left: -24.90,
                                     top: 0,
-                                    child: Container(
+                                    child: SizedBox(
                                       width: 73.80,
                                       height: 24,
                                       child: Column(
@@ -392,7 +394,7 @@ class Pesan extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 7,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Text(
                                 'Explore',
                                 style: TextStyle(
@@ -416,7 +418,7 @@ class Pesan extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 6,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Opacity(
                                 opacity: 0.90,
                                 child: Text(
@@ -443,7 +445,7 @@ class Pesan extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 6,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Text(
                                 'Blog',
                                 style: TextStyle(
@@ -467,7 +469,7 @@ class Pesan extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 6,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Text(
                                 'Account',
                                 style: TextStyle(

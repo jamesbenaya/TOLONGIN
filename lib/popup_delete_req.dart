@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class DeleteConfirmation extends StatelessWidget {
+  const DeleteConfirmation({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -39,7 +41,7 @@ class DeleteConfirmation extends StatelessWidget {
               Positioned(
                 left: 58,
                 top: 35,
-                child: Container(
+                child: SizedBox(
                   width: 253.44,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,

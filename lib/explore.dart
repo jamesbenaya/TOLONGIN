@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class Explore extends StatelessWidget {
+  const Explore({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -58,7 +60,7 @@ class Explore extends StatelessWidget {
               Positioned(
                 left: 19,
                 top: 100,
-                child: Container(
+                child: SizedBox(
                   width: 392,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -117,7 +119,7 @@ class Explore extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: 54,
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
@@ -142,7 +144,7 @@ class Explore extends StatelessWidget {
                                 Positioned(
                                   left: 15,
                                   top: 15,
-                                  child: Container(
+                                  child: SizedBox(
                                     width: 24,
                                     height: 24,
                                     child: Stack(),
@@ -168,7 +170,7 @@ class Explore extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 10,
                     children: [
-                      Container(width: 30, height: 30, child: Stack()),
+                      SizedBox(width: 30, height: 30, child: Stack()),
                       Container(
                         width: 12,
                         height: 12,
@@ -544,7 +546,7 @@ class Explore extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Container(
+                              SizedBox(
                                 width: double.infinity,
                                 height: 151,
                                 child: Column(
@@ -779,7 +781,7 @@ class Explore extends StatelessWidget {
                               Positioned(
                                 left: -2,
                                 top: -19,
-                                child: Container(width: 144, height: 180),
+                                child: SizedBox(width: 144, height: 180),
                               ),
                               Positioned(
                                 left: -66,
@@ -902,7 +904,7 @@ class Explore extends StatelessWidget {
                                       Positioned(
                                         left: -2,
                                         top: -19,
-                                        child: Container(
+                                        child: SizedBox(
                                           width: 144,
                                           height: 180,
                                         ),
@@ -1032,7 +1034,7 @@ class Explore extends StatelessWidget {
                                       Positioned(
                                         left: -2,
                                         top: -19,
-                                        child: Container(
+                                        child: SizedBox(
                                           width: 144,
                                           height: 180,
                                         ),
@@ -1162,7 +1164,7 @@ class Explore extends StatelessWidget {
                                       Positioned(
                                         left: -2,
                                         top: -13,
-                                        child: Container(
+                                        child: SizedBox(
                                           width: 144,
                                           height: 180,
                                         ),
@@ -1414,7 +1416,7 @@ class Explore extends StatelessWidget {
                                       Positioned(
                                         left: -2,
                                         top: -13,
-                                        child: Container(
+                                        child: SizedBox(
                                           width: 144,
                                           height: 180,
                                         ),
@@ -1572,7 +1574,7 @@ class Explore extends StatelessWidget {
                               Positioned(
                                 left: -2,
                                 top: -19,
-                                child: Container(width: 144, height: 180),
+                                child: SizedBox(width: 144, height: 180),
                               ),
                               Positioned(
                                 left: -9,
@@ -1655,7 +1657,7 @@ class Explore extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   spacing: 26,
                   children: [
-                    Container(
+                    SizedBox(
                       width: 68,
                       height: 62,
                       child: Stack(
@@ -1703,7 +1705,7 @@ class Explore extends StatelessWidget {
                                   Positioned(
                                     left: 10.64,
                                     top: 10.50,
-                                    child: Container(
+                                    child: SizedBox(
                                       width: 10.64,
                                       height: 10.50,
                                       child: Stack(
@@ -1711,7 +1713,7 @@ class Explore extends StatelessWidget {
                                           Positioned(
                                             left: 0,
                                             top: 0,
-                                            child: Container(
+                                            child: SizedBox(
                                               width: 10.64,
                                               height: 10.50,
                                             ),
@@ -1745,7 +1747,7 @@ class Explore extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Container(
+                    SizedBox(
                       width: 82,
                       height: 61,
                       child: Stack(
@@ -1783,7 +1785,7 @@ class Explore extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Container(
+                    SizedBox(
                       width: 76,
                       height: 62,
                       child: Stack(
@@ -1821,7 +1823,7 @@ class Explore extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Container(
+                    SizedBox(
                       width: 61,
                       height: 62,
                       child: Stack(
@@ -1865,7 +1867,7 @@ class Explore extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 1799,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 90,
                   child: Stack(
@@ -1873,7 +1875,7 @@ class Explore extends StatelessWidget {
                       Positioned(
                         left: 0,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           width: 428,
                           height: 90,
                           child: Stack(
@@ -1881,7 +1883,7 @@ class Explore extends StatelessWidget {
                               Positioned(
                                 left: 0,
                                 top: 1,
-                                child: Container(
+                                child: SizedBox(
                                   width: 428,
                                   height: 89,
                                   child: Stack(
@@ -1935,7 +1937,7 @@ class Explore extends StatelessWidget {
                                                       CrossAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
-                                                    Container(
+                                                    SizedBox(
                                                       width: 24,
                                                       height: 24,
                                                       child: Stack(
@@ -1943,7 +1945,7 @@ class Explore extends StatelessWidget {
                                                           Positioned(
                                                             left: -24.90,
                                                             top: 0,
-                                                            child: Container(
+                                                            child: SizedBox(
                                                               width: 73.80,
                                                               height: 24,
                                                               child: Column(
@@ -2004,7 +2006,7 @@ class Explore extends StatelessWidget {
                                                             .center,
                                                     spacing: 7,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -2039,7 +2041,7 @@ class Explore extends StatelessWidget {
                                                             .center,
                                                     spacing: 6,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -2078,7 +2080,7 @@ class Explore extends StatelessWidget {
                                                             .center,
                                                     spacing: 6,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -2113,7 +2115,7 @@ class Explore extends StatelessWidget {
                                                             .center,
                                                     spacing: 6,
                                                     children: [
-                                                      Container(
+                                                      SizedBox(
                                                         width: 24,
                                                         height: 24,
                                                         child: Stack(),
@@ -2146,7 +2148,7 @@ class Explore extends StatelessWidget {
                               Positioned(
                                 left: 101,
                                 top: 0,
-                                child: Container(
+                                child: SizedBox(
                                   width: 61.46,
                                   height: 4,
                                   child: Stack(

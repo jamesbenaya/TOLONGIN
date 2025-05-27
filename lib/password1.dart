@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class Password extends StatelessWidget {
+  const Password({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(

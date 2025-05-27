@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class Profile extends StatelessWidget {
+  const Profile({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -68,9 +70,7 @@ class Profile extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 10,
-                    children: [
-                      Container(width: 22, height: 22, child: Stack()),
-                    ],
+                    children: [SizedBox(width: 22, height: 22, child: Stack())],
                   ),
                 ),
               ),
@@ -91,9 +91,7 @@ class Profile extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 10,
-                    children: [
-                      Container(width: 22, height: 22, child: Stack()),
-                    ],
+                    children: [SizedBox(width: 22, height: 22, child: Stack())],
                   ),
                 ),
               ),
@@ -471,7 +469,7 @@ class Profile extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 835,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 91,
                   child: Stack(
@@ -479,7 +477,7 @@ class Profile extends StatelessWidget {
                       Positioned(
                         left: 0,
                         top: 2,
-                        child: Container(
+                        child: SizedBox(
                           width: 428,
                           height: 89,
                           child: Stack(
@@ -529,7 +527,7 @@ class Profile extends StatelessWidget {
                                               CrossAxisAlignment.center,
                                           spacing: 6,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: 24,
                                               height: 24,
                                               child: Stack(
@@ -537,7 +535,7 @@ class Profile extends StatelessWidget {
                                                   Positioned(
                                                     left: -24.90,
                                                     top: 0,
-                                                    child: Container(
+                                                    child: SizedBox(
                                                       width: 73.80,
                                                       height: 24,
                                                       child: Column(
@@ -591,7 +589,7 @@ class Profile extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 7,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -623,7 +621,7 @@ class Profile extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -658,7 +656,7 @@ class Profile extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -690,7 +688,7 @@ class Profile extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -722,7 +720,7 @@ class Profile extends StatelessWidget {
                       Positioned(
                         left: 344,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           width: 61.46,
                           height: 4,
                           child: Stack(

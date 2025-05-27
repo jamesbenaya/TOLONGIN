@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class YourRequest extends StatelessWidget {
+  const YourRequest({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -34,7 +36,7 @@ class YourRequest extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 17.30,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 48,
                   child: Stack(
@@ -73,7 +75,7 @@ class YourRequest extends StatelessWidget {
                       Positioned(
                         left: 21,
                         top: 7.33,
-                        child: Container(
+                        child: SizedBox(
                           width: 54,
                           height: 21,
                           child: Stack(
@@ -107,7 +109,7 @@ class YourRequest extends StatelessWidget {
               Positioned(
                 left: 151,
                 top: 46.30,
-                child: Container(
+                child: SizedBox(
                   width: 135,
                   height: 73,
                   child: Column(
@@ -295,7 +297,7 @@ class YourRequest extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 518,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 155,
                   child: Stack(
@@ -327,7 +329,7 @@ class YourRequest extends StatelessWidget {
                               Positioned(
                                 left: -2,
                                 top: -19,
-                                child: Container(width: 144, height: 180),
+                                child: SizedBox(width: 144, height: 180),
                               ),
                               Positioned(
                                 left: -66,
@@ -502,7 +504,7 @@ class YourRequest extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 674,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 155,
                   child: Stack(
@@ -534,7 +536,7 @@ class YourRequest extends StatelessWidget {
                               Positioned(
                                 left: -2,
                                 top: -19,
-                                child: Container(width: 144, height: 180),
+                                child: SizedBox(width: 144, height: 180),
                               ),
                               Positioned(
                                 left: -9,

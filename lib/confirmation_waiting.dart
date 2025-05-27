@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class ConfirmationWaiting extends StatelessWidget {
+  const ConfirmationWaiting({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -55,7 +57,7 @@ class ConfirmationWaiting extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 155,
                           children: [
-                            Container(
+                            SizedBox(
                               width: 82,
                               height: double.infinity,
                               child: Column(
@@ -118,7 +120,7 @@ class ConfirmationWaiting extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 388,
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
@@ -163,7 +165,7 @@ class ConfirmationWaiting extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(
+                                      SizedBox(
                                         width: 30,
                                         height: 30,
                                         child: Stack(),
@@ -180,7 +182,7 @@ class ConfirmationWaiting extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(
+                                      SizedBox(
                                         width: 30,
                                         height: 30,
                                         child: Stack(),
@@ -669,7 +671,7 @@ class ConfirmationWaiting extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 6,
                           children: [
-                            Container(
+                            SizedBox(
                               width: 24,
                               height: 24,
                               child: Stack(
@@ -677,7 +679,7 @@ class ConfirmationWaiting extends StatelessWidget {
                                   Positioned(
                                     left: -24.90,
                                     top: 0,
-                                    child: Container(
+                                    child: SizedBox(
                                       width: 73.80,
                                       height: 24,
                                       child: Column(
@@ -723,7 +725,7 @@ class ConfirmationWaiting extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 7,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Text(
                                 'Explore',
                                 style: TextStyle(
@@ -747,7 +749,7 @@ class ConfirmationWaiting extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 6,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Opacity(
                                 opacity: 0.90,
                                 child: Text(
@@ -774,7 +776,7 @@ class ConfirmationWaiting extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 6,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Text(
                                 'Blog',
                                 style: TextStyle(
@@ -798,7 +800,7 @@ class ConfirmationWaiting extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             spacing: 6,
                             children: [
-                              Container(width: 24, height: 24, child: Stack()),
+                              SizedBox(width: 24, height: 24, child: Stack()),
                               Text(
                                 'Account',
                                 style: TextStyle(

@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class ApplyPekerjaan extends StatelessWidget {
+  const ApplyPekerjaan({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -77,7 +79,7 @@ class ApplyPekerjaan extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 10,
                     children: [
-                      Container(width: 30, height: 30, child: Stack()),
+                      SizedBox(width: 30, height: 30, child: Stack()),
                       Container(
                         width: 12,
                         height: 12,
@@ -114,7 +116,7 @@ class ApplyPekerjaan extends StatelessWidget {
               Positioned(
                 left: 368,
                 top: 56,
-                child: Container(
+                child: SizedBox(
                   width: 25,
                   height: 24,
                   child: Stack(

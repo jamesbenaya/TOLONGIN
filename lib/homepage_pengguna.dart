@@ -24,6 +24,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class HomepagePengguna extends StatelessWidget {
+  const HomepagePengguna({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -314,7 +316,7 @@ class HomepagePengguna extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   spacing: 24,
                   children: [
-                    Container(
+                    SizedBox(
                       width: 388,
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
@@ -388,7 +390,7 @@ class HomepagePengguna extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 spacing: 4,
                                 children: [
-                                  Container(width: 22, height: 22, child: Stack()),
+                                  SizedBox(width: 22, height: 22, child: Stack()),
                                 ],
                               ),
                             ),
@@ -428,7 +430,7 @@ class HomepagePengguna extends StatelessWidget {
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       spacing: 8,
                                       children: [
-                                        Container(
+                                        SizedBox(
                                           width: 346,
                                           child: Row(
                                             mainAxisSize: MainAxisSize.min,
@@ -478,7 +480,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.center,
                                                   spacing: 4,
                                                   children: [
-                                                    Container(width: 12, height: 12, child: Stack()),
+                                                    SizedBox(width: 12, height: 12, child: Stack()),
                                                     Text(
                                                       '4.9',
                                                       style: TextStyle(
@@ -570,7 +572,7 @@ class HomepagePengguna extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            Container(width: 24, height: 24, child: Stack()),
+                            SizedBox(width: 24, height: 24, child: Stack()),
                           ],
                         ),
                         Column(
@@ -593,7 +595,7 @@ class HomepagePengguna extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 spacing: 4,
                                 children: [
-                                  Container(width: 22, height: 22, child: Stack()),
+                                  SizedBox(width: 22, height: 22, child: Stack()),
                                 ],
                               ),
                             ),
@@ -633,7 +635,7 @@ class HomepagePengguna extends StatelessWidget {
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       spacing: 8,
                                       children: [
-                                        Container(
+                                        SizedBox(
                                           width: 346,
                                           child: Row(
                                             mainAxisSize: MainAxisSize.min,
@@ -683,7 +685,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.center,
                                                   spacing: 4,
                                                   children: [
-                                                    Container(width: 12, height: 12, child: Stack()),
+                                                    SizedBox(width: 12, height: 12, child: Stack()),
                                                     Text(
                                                       '4.9',
                                                       style: TextStyle(
@@ -761,7 +763,7 @@ class HomepagePengguna extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   spacing: 24,
                   children: [
-                    Container(
+                    SizedBox(
                       width: 388,
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
@@ -897,7 +899,7 @@ class HomepagePengguna extends StatelessWidget {
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               spacing: 4,
                                               children: [
-                                                Container(width: 14, height: 14, child: Stack()),
+                                                SizedBox(width: 14, height: 14, child: Stack()),
                                                 Text(
                                                   '4.9',
                                                   style: TextStyle(
@@ -915,7 +917,7 @@ class HomepagePengguna extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                Container(
+                                SizedBox(
                                   width: 133,
                                   child: Column(
                                     mainAxisSize: MainAxisSize.min,
@@ -990,7 +992,7 @@ class HomepagePengguna extends StatelessWidget {
                                                 crossAxisAlignment: CrossAxisAlignment.center,
                                                 spacing: 4,
                                                 children: [
-                                                  Container(width: 14, height: 14, child: Stack()),
+                                                  SizedBox(width: 14, height: 14, child: Stack()),
                                                   Text(
                                                     '4.9',
                                                     style: TextStyle(
@@ -1081,7 +1083,7 @@ class HomepagePengguna extends StatelessWidget {
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               spacing: 4,
                                               children: [
-                                                Container(width: 14, height: 14, child: Stack()),
+                                                SizedBox(width: 14, height: 14, child: Stack()),
                                                 Text(
                                                   '4.9',
                                                   style: TextStyle(
@@ -1171,7 +1173,7 @@ class HomepagePengguna extends StatelessWidget {
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               spacing: 4,
                                               children: [
-                                                Container(width: 14, height: 14, child: Stack()),
+                                                SizedBox(width: 14, height: 14, child: Stack()),
                                                 Text(
                                                   '4.9',
                                                   style: TextStyle(
@@ -1261,7 +1263,7 @@ class HomepagePengguna extends StatelessWidget {
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               spacing: 4,
                                               children: [
-                                                Container(width: 14, height: 14, child: Stack()),
+                                                SizedBox(width: 14, height: 14, child: Stack()),
                                                 Text(
                                                   '4.9',
                                                   style: TextStyle(
@@ -1351,7 +1353,7 @@ class HomepagePengguna extends StatelessWidget {
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               spacing: 4,
                                               children: [
-                                                Container(width: 14, height: 14, child: Stack()),
+                                                SizedBox(width: 14, height: 14, child: Stack()),
                                                 Text(
                                                   '4.9',
                                                   style: TextStyle(
@@ -1441,7 +1443,7 @@ class HomepagePengguna extends StatelessWidget {
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               spacing: 4,
                                               children: [
-                                                Container(width: 14, height: 14, child: Stack()),
+                                                SizedBox(width: 14, height: 14, child: Stack()),
                                                 Text(
                                                   '4.9',
                                                   style: TextStyle(
@@ -1477,7 +1479,7 @@ class HomepagePengguna extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   spacing: 24,
                   children: [
-                    Container(
+                    SizedBox(
                       width: 388,
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
@@ -1623,7 +1625,7 @@ class HomepagePengguna extends StatelessWidget {
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       spacing: 14,
                                       children: [
-                                        Container(
+                                        SizedBox(
                                           width: 264,
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -1631,7 +1633,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             spacing: 12,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: double.infinity,
                                                 child: Column(
                                                   mainAxisSize: MainAxisSize.min,
@@ -1639,7 +1641,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                   spacing: 8,
                                                   children: [
-                                                    Container(
+                                                    SizedBox(
                                                       width: double.infinity,
                                                       child: Row(
                                                         mainAxisSize: MainAxisSize.min,
@@ -1707,7 +1709,7 @@ class HomepagePengguna extends StatelessWidget {
                                                               crossAxisAlignment: CrossAxisAlignment.center,
                                                               spacing: 4,
                                                               children: [
-                                                                Container(width: 12, height: 12, child: Stack()),
+                                                                SizedBox(width: 12, height: 12, child: Stack()),
                                                                 Text(
                                                                   '4.9',
                                                                   style: TextStyle(
@@ -1832,7 +1834,7 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.center,
                                           spacing: 4,
                                           children: [
-                                            Container(width: 22, height: 22, child: Stack()),
+                                            SizedBox(width: 22, height: 22, child: Stack()),
                                           ],
                                         ),
                                       ),
@@ -1867,7 +1869,7 @@ class HomepagePengguna extends StatelessWidget {
                                             ),
                                           ),
                                         ),
-                                        Container(
+                                        SizedBox(
                                           width: 264,
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -1875,7 +1877,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             spacing: 12,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: double.infinity,
                                                 child: Column(
                                                   mainAxisSize: MainAxisSize.min,
@@ -1883,7 +1885,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                   spacing: 8,
                                                   children: [
-                                                    Container(
+                                                    SizedBox(
                                                       width: double.infinity,
                                                       child: Row(
                                                         mainAxisSize: MainAxisSize.min,
@@ -1951,7 +1953,7 @@ class HomepagePengguna extends StatelessWidget {
                                                               crossAxisAlignment: CrossAxisAlignment.center,
                                                               spacing: 4,
                                                               children: [
-                                                                Container(width: 12, height: 12, child: Stack()),
+                                                                SizedBox(width: 12, height: 12, child: Stack()),
                                                                 Text(
                                                                   '4.9',
                                                                   style: TextStyle(
@@ -2076,7 +2078,7 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.center,
                                           spacing: 4,
                                           children: [
-                                            Container(width: 22, height: 22, child: Stack()),
+                                            SizedBox(width: 22, height: 22, child: Stack()),
                                           ],
                                         ),
                                       ),
@@ -2115,7 +2117,7 @@ class HomepagePengguna extends StatelessWidget {
                                             ),
                                           ),
                                         ),
-                                        Container(
+                                        SizedBox(
                                           width: 264,
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -2123,7 +2125,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             spacing: 12,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: double.infinity,
                                                 child: Column(
                                                   mainAxisSize: MainAxisSize.min,
@@ -2131,7 +2133,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                   spacing: 8,
                                                   children: [
-                                                    Container(
+                                                    SizedBox(
                                                       width: double.infinity,
                                                       child: Row(
                                                         mainAxisSize: MainAxisSize.min,
@@ -2199,7 +2201,7 @@ class HomepagePengguna extends StatelessWidget {
                                                               crossAxisAlignment: CrossAxisAlignment.center,
                                                               spacing: 4,
                                                               children: [
-                                                                Container(width: 12, height: 12, child: Stack()),
+                                                                SizedBox(width: 12, height: 12, child: Stack()),
                                                                 Text(
                                                                   '4.9',
                                                                   style: TextStyle(
@@ -2324,7 +2326,7 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.center,
                                           spacing: 4,
                                           children: [
-                                            Container(width: 22, height: 22, child: Stack()),
+                                            SizedBox(width: 22, height: 22, child: Stack()),
                                           ],
                                         ),
                                       ),
@@ -2359,7 +2361,7 @@ class HomepagePengguna extends StatelessWidget {
                                             ),
                                           ),
                                         ),
-                                        Container(
+                                        SizedBox(
                                           width: 264,
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
@@ -2367,7 +2369,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             spacing: 12,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: double.infinity,
                                                 child: Column(
                                                   mainAxisSize: MainAxisSize.min,
@@ -2375,7 +2377,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                   spacing: 8,
                                                   children: [
-                                                    Container(
+                                                    SizedBox(
                                                       width: double.infinity,
                                                       child: Row(
                                                         mainAxisSize: MainAxisSize.min,
@@ -2443,7 +2445,7 @@ class HomepagePengguna extends StatelessWidget {
                                                               crossAxisAlignment: CrossAxisAlignment.center,
                                                               spacing: 4,
                                                               children: [
-                                                                Container(width: 12, height: 12, child: Stack()),
+                                                                SizedBox(width: 12, height: 12, child: Stack()),
                                                                 Text(
                                                                   '4.9',
                                                                   style: TextStyle(
@@ -2568,7 +2570,7 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.center,
                                           spacing: 4,
                                           children: [
-                                            Container(width: 22, height: 22, child: Stack()),
+                                            SizedBox(width: 22, height: 22, child: Stack()),
                                           ],
                                         ),
                                       ),
@@ -2605,7 +2607,7 @@ class HomepagePengguna extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 155,
                           children: [
-                            Container(
+                            SizedBox(
                               width: 82,
                               height: double.infinity,
                               child: Column(
@@ -2660,7 +2662,7 @@ class HomepagePengguna extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 388,
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
@@ -2689,7 +2691,7 @@ class HomepagePengguna extends StatelessWidget {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(width: 30, height: 30, child: Stack()),
+                                      SizedBox(width: 30, height: 30, child: Stack()),
                                     ],
                                   ),
                                 ),
@@ -2701,7 +2703,7 @@ class HomepagePengguna extends StatelessWidget {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     spacing: 10,
                                     children: [
-                                      Container(width: 30, height: 30, child: Stack()),
+                                      SizedBox(width: 30, height: 30, child: Stack()),
                                     ],
                                   ),
                                 ),
@@ -2734,7 +2736,7 @@ class HomepagePengguna extends StatelessWidget {
               Positioned(
                 left: 16,
                 top: 2388.50,
-                child: Container(
+                child: SizedBox(
                   width: 396,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -2778,7 +2780,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 17,
                         top: 5,
-                        child: Container(
+                        child: SizedBox(
                           width: 388,
                           height: 154,
                           child: Stack(
@@ -2855,14 +2857,14 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           spacing: 4,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.min,
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
-                                                  Container(
+                                                  SizedBox(
                                                     width: double.infinity,
                                                     child: Column(
                                                       mainAxisSize: MainAxisSize.min,
@@ -2907,7 +2909,7 @@ class HomepagePengguna extends StatelessWidget {
                                                 ],
                                               ),
                                             ),
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Row(
                                                 mainAxisSize: MainAxisSize.min,
@@ -2929,7 +2931,7 @@ class HomepagePengguna extends StatelessWidget {
                                                       crossAxisAlignment: CrossAxisAlignment.center,
                                                       spacing: 4,
                                                       children: [
-                                                        Container(width: 12, height: 12, child: Stack()),
+                                                        SizedBox(width: 12, height: 12, child: Stack()),
                                                         Text(
                                                           '4.9',
                                                           style: TextStyle(
@@ -2983,7 +2985,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 17,
                         top: 363,
-                        child: Container(
+                        child: SizedBox(
                           width: 388,
                           height: 154,
                           child: Stack(
@@ -3058,7 +3060,7 @@ class HomepagePengguna extends StatelessWidget {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         spacing: 4,
                                         children: [
-                                          Container(
+                                          SizedBox(
                                             width: double.infinity,
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
@@ -3120,7 +3122,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.center,
                                                   spacing: 4,
                                                   children: [
-                                                    Container(width: 12, height: 12, child: Stack()),
+                                                    SizedBox(width: 12, height: 12, child: Stack()),
                                                     Text(
                                                       '4.9',
                                                       style: TextStyle(
@@ -3209,14 +3211,14 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           spacing: 4,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.min,
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
-                                                  Container(
+                                                  SizedBox(
                                                     width: double.infinity,
                                                     child: Column(
                                                       mainAxisSize: MainAxisSize.min,
@@ -3261,7 +3263,7 @@ class HomepagePengguna extends StatelessWidget {
                                                 ],
                                               ),
                                             ),
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Row(
                                                 mainAxisSize: MainAxisSize.min,
@@ -3283,7 +3285,7 @@ class HomepagePengguna extends StatelessWidget {
                                                       crossAxisAlignment: CrossAxisAlignment.center,
                                                       spacing: 4,
                                                       children: [
-                                                        Container(width: 12, height: 12, child: Stack()),
+                                                        SizedBox(width: 12, height: 12, child: Stack()),
                                                         Text(
                                                           '4.9',
                                                           style: TextStyle(
@@ -3337,7 +3339,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 17,
                         top: 542,
-                        child: Container(
+                        child: SizedBox(
                           width: 388,
                           height: 154,
                           child: Stack(
@@ -3414,14 +3416,14 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           spacing: 4,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.min,
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
-                                                  Container(
+                                                  SizedBox(
                                                     width: double.infinity,
                                                     child: Column(
                                                       mainAxisSize: MainAxisSize.min,
@@ -3466,7 +3468,7 @@ class HomepagePengguna extends StatelessWidget {
                                                 ],
                                               ),
                                             ),
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Row(
                                                 mainAxisSize: MainAxisSize.min,
@@ -3488,7 +3490,7 @@ class HomepagePengguna extends StatelessWidget {
                                                       crossAxisAlignment: CrossAxisAlignment.center,
                                                       spacing: 4,
                                                       children: [
-                                                        Container(width: 12, height: 12, child: Stack()),
+                                                        SizedBox(width: 12, height: 12, child: Stack()),
                                                         Text(
                                                           '4.9',
                                                           style: TextStyle(
@@ -3542,7 +3544,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 17,
                         top: 721,
-                        child: Container(
+                        child: SizedBox(
                           width: 388,
                           height: 154,
                           child: Stack(
@@ -3617,7 +3619,7 @@ class HomepagePengguna extends StatelessWidget {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         spacing: 4,
                                         children: [
-                                          Container(
+                                          SizedBox(
                                             width: double.infinity,
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
@@ -3679,7 +3681,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.center,
                                                   spacing: 4,
                                                   children: [
-                                                    Container(width: 12, height: 12, child: Stack()),
+                                                    SizedBox(width: 12, height: 12, child: Stack()),
                                                     Text(
                                                       '4.9',
                                                       style: TextStyle(
@@ -3768,14 +3770,14 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           spacing: 4,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.min,
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
-                                                  Container(
+                                                  SizedBox(
                                                     width: double.infinity,
                                                     child: Column(
                                                       mainAxisSize: MainAxisSize.min,
@@ -3820,7 +3822,7 @@ class HomepagePengguna extends StatelessWidget {
                                                 ],
                                               ),
                                             ),
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Row(
                                                 mainAxisSize: MainAxisSize.min,
@@ -3842,7 +3844,7 @@ class HomepagePengguna extends StatelessWidget {
                                                       crossAxisAlignment: CrossAxisAlignment.center,
                                                       spacing: 4,
                                                       children: [
-                                                        Container(width: 12, height: 12, child: Stack()),
+                                                        SizedBox(width: 12, height: 12, child: Stack()),
                                                         Text(
                                                           '4.9',
                                                           style: TextStyle(
@@ -3896,7 +3898,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 17,
                         top: 184,
-                        child: Container(
+                        child: SizedBox(
                           width: 388,
                           height: 154,
                           child: Stack(
@@ -3971,7 +3973,7 @@ class HomepagePengguna extends StatelessWidget {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         spacing: 4,
                                         children: [
-                                          Container(
+                                          SizedBox(
                                             width: double.infinity,
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
@@ -4033,7 +4035,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   crossAxisAlignment: CrossAxisAlignment.center,
                                                   spacing: 4,
                                                   children: [
-                                                    Container(width: 12, height: 12, child: Stack()),
+                                                    SizedBox(width: 12, height: 12, child: Stack()),
                                                     Text(
                                                       '4.9',
                                                       style: TextStyle(
@@ -4122,14 +4124,14 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           spacing: 4,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.min,
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
-                                                  Container(
+                                                  SizedBox(
                                                     width: double.infinity,
                                                     child: Column(
                                                       mainAxisSize: MainAxisSize.min,
@@ -4174,7 +4176,7 @@ class HomepagePengguna extends StatelessWidget {
                                                 ],
                                               ),
                                             ),
-                                            Container(
+                                            SizedBox(
                                               width: double.infinity,
                                               child: Row(
                                                 mainAxisSize: MainAxisSize.min,
@@ -4196,7 +4198,7 @@ class HomepagePengguna extends StatelessWidget {
                                                       crossAxisAlignment: CrossAxisAlignment.center,
                                                       spacing: 4,
                                                       children: [
-                                                        Container(width: 12, height: 12, child: Stack()),
+                                                        SizedBox(width: 12, height: 12, child: Stack()),
                                                         Text(
                                                           '4.9',
                                                           style: TextStyle(
@@ -4254,7 +4256,7 @@ class HomepagePengguna extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 3005,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 90,
                   child: Stack(
@@ -4262,7 +4264,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 0,
                         top: 1,
-                        child: Container(
+                        child: SizedBox(
                           width: 428,
                           height: 89,
                           child: Stack(
@@ -4303,7 +4305,7 @@ class HomepagePengguna extends StatelessWidget {
                                           crossAxisAlignment: CrossAxisAlignment.center,
                                           spacing: 6,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: 24,
                                               height: 24,
                                               child: Stack(
@@ -4311,7 +4313,7 @@ class HomepagePengguna extends StatelessWidget {
                                                   Positioned(
                                                     left: -24.90,
                                                     top: 0,
-                                                    child: Container(
+                                                    child: SizedBox(
                                                       width: 73.80,
                                                       height: 24,
                                                       child: Column(
@@ -4356,7 +4358,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.center,
                                             spacing: 7,
                                             children: [
-                                              Container(width: 24, height: 24, child: Stack()),
+                                              SizedBox(width: 24, height: 24, child: Stack()),
                                               Text(
                                                 'Explore',
                                                 style: TextStyle(
@@ -4380,7 +4382,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(width: 24, height: 24, child: Stack()),
+                                              SizedBox(width: 24, height: 24, child: Stack()),
                                               Opacity(
                                                 opacity: 0.90,
                                                 child: Text(
@@ -4407,7 +4409,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(width: 24, height: 24, child: Stack()),
+                                              SizedBox(width: 24, height: 24, child: Stack()),
                                               Text(
                                                 'Blog',
                                                 style: TextStyle(
@@ -4431,7 +4433,7 @@ class HomepagePengguna extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(width: 24, height: 24, child: Stack()),
+                                              SizedBox(width: 24, height: 24, child: Stack()),
                                               Text(
                                                 'Account',
                                                 style: TextStyle(
@@ -4457,7 +4459,7 @@ class HomepagePengguna extends StatelessWidget {
                       Positioned(
                         left: 19,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           width: 61.46,
                           height: 4,
                           child: Stack(

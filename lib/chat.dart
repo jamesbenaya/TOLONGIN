@@ -20,6 +20,8 @@ class FigmaToCodeApp extends StatelessWidget {
 }
 
 class Chat extends StatelessWidget {
+  const Chat({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -55,7 +57,7 @@ class Chat extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 155,
                           children: [
-                            Container(
+                            SizedBox(
                               width: 82,
                               height: double.infinity,
                               child: Column(
@@ -118,7 +120,7 @@ class Chat extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         width: 388,
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
@@ -137,7 +139,7 @@ class Chat extends StatelessWidget {
                                 height: 1.20,
                               ),
                             ),
-                            Container(
+                            SizedBox(
                               width: 40,
                               height: 40,
                               child: Row(
@@ -195,7 +197,7 @@ class Chat extends StatelessWidget {
               Positioned(
                 left: 27,
                 top: 149,
-                child: Container(
+                child: SizedBox(
                   width: 378,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -990,7 +992,7 @@ class Chat extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 836,
-                child: Container(
+                child: SizedBox(
                   width: 428,
                   height: 90,
                   child: Stack(
@@ -998,7 +1000,7 @@ class Chat extends StatelessWidget {
                       Positioned(
                         left: 0,
                         top: 1,
-                        child: Container(
+                        child: SizedBox(
                           width: 428,
                           height: 89,
                           child: Stack(
@@ -1048,7 +1050,7 @@ class Chat extends StatelessWidget {
                                               CrossAxisAlignment.center,
                                           spacing: 6,
                                           children: [
-                                            Container(
+                                            SizedBox(
                                               width: 24,
                                               height: 24,
                                               child: Stack(
@@ -1056,7 +1058,7 @@ class Chat extends StatelessWidget {
                                                   Positioned(
                                                     left: -24.90,
                                                     top: 0,
-                                                    child: Container(
+                                                    child: SizedBox(
                                                       width: 73.80,
                                                       height: 24,
                                                       child: Column(
@@ -1110,7 +1112,7 @@ class Chat extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 7,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -1142,7 +1144,7 @@ class Chat extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -1177,7 +1179,7 @@ class Chat extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -1209,7 +1211,7 @@ class Chat extends StatelessWidget {
                                                 CrossAxisAlignment.center,
                                             spacing: 6,
                                             children: [
-                                              Container(
+                                              SizedBox(
                                                 width: 24,
                                                 height: 24,
                                                 child: Stack(),
@@ -1241,7 +1243,7 @@ class Chat extends StatelessWidget {
                       Positioned(
                         left: 183,
                         top: 0,
-                        child: Container(
+                        child: SizedBox(
                           width: 61.46,
                           height: 4,
                           child: Stack(
